@@ -22,7 +22,13 @@ public class Main {
         int number = numberGenerator.next();
 
         // log the number
-        log.info("Number = {}", number);
+        //log.info("Number = {}", number);
+
+        //get game bean from context (container)
+        Game game  = context.getBean(Game.class);
+
+        // call reset method
+        game.reset();
 
         //close context
         context.close();

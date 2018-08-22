@@ -3,10 +3,10 @@ package Nicholas.Baltodano;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class gameImpl implements Game {
+public class GameImpl implements Game {
 
     // Logger Constants
-    private static Logger log = LoggerFactory.getLogger(gameImpl.class);
+    private static Logger log = LoggerFactory.getLogger(GameImpl.class);
 
     // Fields
     private NumberGenerator numberGenerator;
@@ -18,7 +18,12 @@ public class gameImpl implements Game {
     private int remainingGuesses;
     private boolean validNumberRange = true;
 
-// Public Methods
+    // constructors
+    public GameImpl(NumberGenerator numberGenerator) {
+        this.numberGenerator = numberGenerator;
+    }
+
+    // Public Methods
     @Override
     public void reset() {
         smallest         = 0;
@@ -27,8 +32,8 @@ public class gameImpl implements Game {
         biggest          = numberGenerator.getMaxNumber();
         number           = numberGenerator.next();
 
-        log.debug("The Game has been reset");
-        log.debug("The number is {}", number);
+        log.info("The Game has been reset");
+        log.info("The number is {}", number);
 
     }
 
@@ -67,15 +72,16 @@ public class gameImpl implements Game {
     public void check() {
         checkValidNumberRange();
 
-        if (validNumberRange == true)        {
-            if(guess > number) {
+        if (validNumberRange == true) {
+            if (guess > number) {
                 biggest = guess - 1;
             }
 
-            if(guess < number )            {
+            if (guess < number) {
                 smallest = guess + 1;
             }
         }
+    }
 
     @Override
     public boolean isValidNumberRange() {
@@ -95,6 +101,6 @@ public class gameImpl implements Game {
     // Private Methods
     private void checkValidNumberRange()
     {
-        validNumberRange = (guess >=smallest) && (guess <=biggest);
+        validNumberRange = (guess >=smallest) && (guess <= biggest);
     }
 }
