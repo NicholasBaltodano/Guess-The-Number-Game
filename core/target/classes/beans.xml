@@ -6,4 +6,8 @@
 
     <bean id="numberGenerator" class="Nicholas.Baltodano.NumberGeneratorImpl"/>
 
+    <bean id="game" class="Nicholas.Baltodano.GameImpl">
+        <constructor-arg ref="numberGenerator"/>
+    </bean>
+
 </beans>

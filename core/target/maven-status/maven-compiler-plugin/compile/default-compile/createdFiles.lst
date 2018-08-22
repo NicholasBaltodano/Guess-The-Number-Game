@@ -1,3 +1,5 @@
 Nicholas\Baltodano\Main.class
 Nicholas\Baltodano\NumberGenerator.class
+Nicholas\Baltodano\Game.class
+Nicholas\Baltodano\gameImpl.class
 Nicholas\Baltodano\NumberGeneratorImpl.class
