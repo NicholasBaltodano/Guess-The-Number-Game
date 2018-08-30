@@ -2,6 +2,12 @@ package Nicholas.Baltodano;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 
 public class GameImpl implements Game {
 
@@ -9,6 +15,7 @@ public class GameImpl implements Game {
     private static Logger log = LoggerFactory.getLogger(GameImpl.class);
 
     // Fields
+    @Autowired
     private NumberGenerator numberGenerator;
     private int guessCount = 10;
     private int number;
@@ -19,11 +26,12 @@ public class GameImpl implements Game {
     private boolean validNumberRange = true;
 
     // constructors
-    public GameImpl(NumberGenerator numberGenerator) {
-        this.numberGenerator = numberGenerator;
-    }
+   // public GameImpl(NumberGenerator numberGenerator) {
+   //     this.numberGenerator = numberGenerator;
+   // }
 
-    // Public Methods
+    // Initilization
+    @PostConstruct
     @Override
     public void reset() {
         smallest         = 0;
@@ -36,6 +44,10 @@ public class GameImpl implements Game {
         log.info("The number is {}", number);
 
     }
+    // Public Methods
+
+
+
 
     @Override
     public int getNumber() {
@@ -72,7 +84,7 @@ public class GameImpl implements Game {
     public void check() {
         checkValidNumberRange();
 
-        if (validNumberRange == true) {
+        if (validNumberRange) {
             if (guess > number) {
                 biggest = guess - 1;
             }
@@ -103,4 +115,10 @@ public class GameImpl implements Game {
     {
         validNumberRange = (guess >=smallest) && (guess <= biggest);
     }
+
+    @PreDestroy
+    public void preDestroy(){
+        log.info("in Game PreDestroy()");
+    }
 }
+
