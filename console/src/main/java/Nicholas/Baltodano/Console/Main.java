@@ -1,10 +1,12 @@
-package Nicholas.Baltodano;
+package Nicholas.Baltodano.Console;
 
+import Nicholas.Baltodano.AppConfig;
+import Nicholas.Baltodano.MessageGenerator;
+import Nicholas.Baltodano.NumberGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
 
@@ -25,9 +27,8 @@ public class Main {
         //get Message Generator bean from context (container)
         MessageGenerator messageGenerator = context.getBean(MessageGenerator.class);
 
-
-        log.info("get Main message = {}", messageGenerator.getMainMessage());
-        log.info("get Result message = {}",messageGenerator.getResultMessage());
+        log.info(messageGenerator.getMainMessage());
+        log.info((messageGenerator.getResultMessage()));
 
         //close context
         context.close();

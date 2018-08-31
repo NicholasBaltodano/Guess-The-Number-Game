@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805bb24e-6cf0-4e05-9d80-905acc46a6ee" name="Default" comment="Converted project to @Annotation Configuration&#10;&#10;Added the Message Generator and implementation">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGeneratorImpl.java" afterDir="false" />
+    <list default="true" id="805bb24e-6cf0-4e05-9d80-905acc46a6ee" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/console/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/GameImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/Nicholas/Baltodano/Console/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGeneratorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/Nicholas/Baltodano/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/Nicholas/Baltodano/GameImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/Nicholas/Baltodano/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/Nicholas/Baltodano/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/Nicholas/Baltodano/NumberGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/Nicholas/Baltodano/NumberGeneratorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
+    <ignored path="$PROJECT_DIR$/console/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +26,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="15" column="14" selection-start-line="14" selection-start-column="6" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -47,14 +35,10 @@
       <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="143">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
                 <element signature="e#617#618#0" expanded="true" />
               </folding>
@@ -65,8 +49,8 @@
       <file leaf-file-name="MessageGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="44">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -74,13 +58,20 @@
       <file leaf-file-name="MessageGeneratorImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGeneratorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="286">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -88,7 +79,7 @@
       <file leaf-file-name="NumberGeneratorImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGeneratorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="-30">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,20 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="27" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/GameImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+            <state relative-caret-position="172">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,14 +100,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Main.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/console/src/main/java/Nicholas/Baltodano/Console/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="97">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/console/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -164,10 +164,13 @@
         <option value="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/AppConfig.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGenerator.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGeneratorImpl.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Main.java" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/GameImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGeneratorImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Main.java" />
+        <option value="$PROJECT_DIR$/console/src/main/java/Console/Package/AppConfig.java" />
+        <option value="$PROJECT_DIR$/console/pom.xml" />
+        <option value="$PROJECT_DIR$/console/src/main/java/Nicholas/Baltodano/Console/Main.java" />
       </list>
     </option>
   </component>
@@ -185,13 +188,45 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="console" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="console" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="console" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Nicholas.Baltodano:core:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="console" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Nicholas.Baltodano:core:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="ch.qos.logback:logback-classic:1.2.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="618" />
-    <option name="y" value="-12" />
+    <option name="x" value="435" />
+    <option name="y" value="-11" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -204,14 +239,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
               <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
@@ -248,34 +317,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Baltodano" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="comp&#9;PSI&#9;JAVA://sun.text.CompactByteArray&#10;maven p&#9;ACTION&#9;ActivateMavenProjectsToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="mave&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;comp&#9;PSI&#9;JAVA://sun.text.CompactByteArray&#10;maven p&#9;ACTION&#9;ActivateMavenProjectsToolWindow" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Console.Package" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nicholas\Documents\GitHub\guess-the-number-game\core\src\main\resources" />
     </key>
@@ -293,17 +354,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Nicholas.Baltodano.Main" />
-      <module name="core" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Nicholas.Baltodano.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dependency.check.Main" />
       <module name="core" />
@@ -311,6 +361,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dependency.check.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Nicholas.Baltodano.Console.Main" />
+      <module name="console" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Nicholas.Baltodano.Console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,6 +450,14 @@
       <option name="presentableId" value="Default" />
       <updated>1533769307897</updated>
     </task>
+    <task id="LOCAL-00001" summary="Converted project to @Annotation Configuration&#10;&#10;Added the Message Generator and implementation">
+      <created>1535601399214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535601399214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -397,18 +466,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.32943678" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.14635417" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" weight="0.5132837" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.25625" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.5132837" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49895832" visible="true" weight="0.5132837" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984227" visible="true" weight="0.12604167" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984227" visible="true" weight="0.19375" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info id="Structure" order="1" sideWeight="0.50157726" side_tool="true" weight="0.12604167" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -420,7 +490,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -436,20 +505,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGeneratorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -464,7 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Main.java">
+    <entry file="file://$PROJECT_DIR$/console/src/main/java/Nicholas/Baltodano/Console/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
@@ -504,13 +559,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/beans.xml" />
     <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -532,7 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Main.java">
+    <entry file="file://$PROJECT_DIR$/console/src/main/java/Nicholas/Baltodano/Console/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
@@ -572,13 +621,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/beans.xml" />
     <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -610,7 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Main.java">
+    <entry file="file://$PROJECT_DIR$/console/src/main/java/Nicholas/Baltodano/Console/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
@@ -678,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.0.8.RELEASE/spring-jcl-5.0.8.RELEASE.jar!/org/apache/commons/logging/LogFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -706,20 +742,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/beans.xml" />
     <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -727,9 +750,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/GameImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGeneratorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="-30">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -737,62 +770,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGenerator.java">
+    <entry file="file://$PROJECT_DIR$/console/src/main/java/Console/Package/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGeneratorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="143">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
             <element signature="e#617#618#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/Main.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="176">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="14" selection-start-line="14" selection-start-column="6" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/NumberGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/MessageGeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/console/src/main/java/Nicholas/Baltodano/Console/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/Nicholas/Baltodano/GameImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+        <state relative-caret-position="97">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -851,7 +896,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>core</last-edited>
+          <last-edited>console</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
