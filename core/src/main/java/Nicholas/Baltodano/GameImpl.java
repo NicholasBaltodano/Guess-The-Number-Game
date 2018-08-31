@@ -40,8 +40,8 @@ public class GameImpl implements Game {
         biggest          = numberGenerator.getMaxNumber();
         number           = numberGenerator.next();
 
-        log.info("The Game has been reset");
-        log.info("The number is {}", number);
+        //log.info("The Game has been reset");
+       // log.info("The number is {}", number);
 
     }
     // Public Methods
