@@ -8,47 +8,43 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-
+@Component
 public class GameImpl implements Game {
 
     // Logger Constants
     private static Logger log = LoggerFactory.getLogger(GameImpl.class);
 
     // Fields
-    @Autowired
-    private NumberGenerator numberGenerator;
-    private int guessCount = 10;
-    private int number;
-    private int smallest;
-    private int guess;
-    private int biggest;
-    private int remainingGuesses;
-    private boolean validNumberRange = true;
+    private final NumberGenerator numberGenerator;
+    private final int guessCount;
+    private int       number;
+    private int       smallest;
+    private int       guess;
+    private int       biggest;
+    private int       remainingGuesses;
+    private boolean   validNumberRange = true;
 
-    // constructors
-   // public GameImpl(NumberGenerator numberGenerator) {
-   //     this.numberGenerator = numberGenerator;
-   // }
+    // Constructor
+    public GameImpl(@Autowired NumberGenerator numberGenerator, @GuessCount int guessCount) {
+        this.numberGenerator = numberGenerator;
+        this.guessCount      = guessCount;
+    }
+
 
     // Initilization
     @PostConstruct
     @Override
     public void reset() {
-        smallest         = 0;
+        smallest         =  numberGenerator.getMinNumber();
         guess            = 0;
         remainingGuesses = guessCount;
         biggest          = numberGenerator.getMaxNumber();
         number           = numberGenerator.next();
 
-        //log.info("The Game has been reset");
-       // log.info("The number is {}", number);
-
     }
+
+
     // Public Methods
-
-
-
-
     @Override
     public int getNumber() {
         return number;
@@ -79,6 +75,10 @@ public class GameImpl implements Game {
         return remainingGuesses;
     }
 
+    @Override
+    public int getGuessCount(){
+        return guessCount;
+    }
 
     @Override
     public void check() {
@@ -93,6 +93,7 @@ public class GameImpl implements Game {
                 smallest = guess + 1;
             }
         }
+        remainingGuesses--;
     }
 
     @Override

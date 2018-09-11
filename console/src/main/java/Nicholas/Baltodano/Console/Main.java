@@ -1,8 +1,6 @@
 package Nicholas.Baltodano.Console;
 
-import Nicholas.Baltodano.AppConfig;
-import Nicholas.Baltodano.MessageGenerator;
-import Nicholas.Baltodano.NumberGenerator;
+import Nicholas.Baltodano.Config.GameConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -17,22 +15,9 @@ public class Main {
         log.info("Guess the Number Game");
 
         // Config
-        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-
-        NumberGenerator numberGenerator = context.getBean(NumberGenerator.class);
-
-        // Call Method next() to get a random number
-        int number = numberGenerator.next();
-
-        //get Message Generator bean from context (container)
-        MessageGenerator messageGenerator = context.getBean(MessageGenerator.class);
-
-        log.info(messageGenerator.getMainMessage());
-        log.info((messageGenerator.getResultMessage()));
+        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(GameConfig.class);
 
         //close context
         context.close();
-
-
     }
 }
