@@ -2,8 +2,7 @@ package Nicholas.Baltodano.Console;
 
 import Nicholas.Baltodano.Game;
 import Nicholas.Baltodano.MessageGenerator;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
@@ -12,10 +11,8 @@ import org.springframework.stereotype.Component;
 import java.util.Scanner;
 
 @Component
+@Slf4j
 public class ConsoleNumberGuess{
-
-    //Logger
-    private static final Logger log = LoggerFactory.getLogger(ConsoleNumberGuess.class);
 
     // Fields
     private final Game game;

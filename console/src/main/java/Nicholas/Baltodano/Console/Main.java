@@ -8,9 +8,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 @Slf4j
 public class Main {
 
-    //private static final Logger log = LoggerFactory.getLogger(Main.class);
-
-
     public static void main(String[] args) {
         log.info("Guess the Number Game");
 
