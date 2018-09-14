@@ -1,5 +1,10 @@
-Nicholas\Baltodano\Main.class
+Nicholas\Baltodano\GameImpl.class
+Nicholas\Baltodano\MessageGeneratorImpl.class
 Nicholas\Baltodano\NumberGenerator.class
 Nicholas\Baltodano\Game.class
-Nicholas\Baltodano\gameImpl.class
+Nicholas\Baltodano\MessageGenerator.class
+Nicholas\Baltodano\GuessCount.class
+Nicholas\Baltodano\MaxNumber.class
 Nicholas\Baltodano\NumberGeneratorImpl.class
+Nicholas\Baltodano\Config\GameConfig.class
+Nicholas\Baltodano\MinNumber.class
