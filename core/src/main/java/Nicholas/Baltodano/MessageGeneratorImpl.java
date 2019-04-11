@@ -13,7 +13,7 @@ import javax.annotation.PostConstruct;
 @Slf4j
 public class MessageGeneratorImpl implements  MessageGenerator {
 
-    // Fields
+     // Fields
     private final Game game;
 
     //Construct
