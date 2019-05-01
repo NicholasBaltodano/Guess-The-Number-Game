@@ -9,7 +9,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 @Slf4j
 @SpringBootApplication
-
 public class Main {
 
     public static void main(String[] args) {

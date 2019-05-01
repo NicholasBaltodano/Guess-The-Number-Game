@@ -1,1 +1,8 @@
+nicholas\baltodano\controller\GameController.class
+nicholas\baltodano\util\GameMappings.class
 nicholas\baltodano\WebMain.class
+nicholas\baltodano\service\GameServiceImpl.class
+nicholas\baltodano\util\AttributeNames.class
+nicholas\baltodano\config\WebConfigs.class
+nicholas\baltodano\util\ViewNames.class
+nicholas\baltodano\service\GameService.class

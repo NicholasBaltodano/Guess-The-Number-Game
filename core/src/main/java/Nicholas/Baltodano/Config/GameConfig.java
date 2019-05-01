@@ -12,7 +12,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @ComponentScan(basePackages = "Nicholas.Baltodano")
-@PropertySource("classpath:Config/game.properties")
+@PropertySource("classpath:config/game.properties")
 public class GameConfig
 {
     // Fields
